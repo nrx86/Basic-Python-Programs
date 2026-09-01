@@ -27,12 +27,16 @@
 # print("The sum of first n numbers is: ", sum)
 
 #Find a Duplicate in an array
-a = [2,5,3,2,7,5,9]
-duplicates = []
+# a = [2,5,3,2,7,5,9]
+# duplicates = []
 
-for i in range(len(a)):
-    for j in range(i+1, len(a)):
-        if a[i] == a[j] and a[i] not in duplicates:
-            duplicates.append(a[i])
+# for i in range(len(a)):
+#     for j in range(i+1, len(a)):
+#         if a[i] == a[j] and a[i] not in duplicates:
+#             duplicates.append(a[i])
 
-print("Duplicate elements in the array are:", duplicates)
+# print("Duplicate elements in the array are:", duplicates)
+
+#Testing on GitHub
+print("Hello, GitHub!")
+
