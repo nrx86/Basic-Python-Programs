@@ -38,5 +38,11 @@
 # print("Duplicate elements in the array are:", duplicates)
 
 #Testing on GitHub
-print("Hello, GitHub!")
+# print("Hello, GitHub!")
 
+#WAP to find the factorial of a number
+n = int(input("Enter a number: "))
+factorial = 1
+for i in range(1, n+1):
+    factorial *= i
+print("The factorial of", n, "is", factorial)
